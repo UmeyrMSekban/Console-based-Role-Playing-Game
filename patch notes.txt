@@ -1,0 +1,28 @@
+Projenin tanımı:
+
+Proje kullanıcı girişi ile ilerleyen ve şekillenen, tercihe dayalı bir oyun sistemi olacak
+
+Tercihlere bağlı olarak kullanıcının karakteri güçlenip ekipman değiştirebilecek
+
+Oyunun ilerleyişi sırasında farklı düşman ya da dost varlıklarla karşılaşılacak
+
+Düşman olan varlıklarla saldırma, kaçma, savunma, mekaniği olacak
+
+Kullanıcının ilerleyişine ve gücüne bağlı olarak güçlenen/scale edilen düşman mekaniği içerecek
+
+Düşmanların belirli elementlere karşı zayıflık ve avantajları bulunacak
+
+"Random Number Generator" sistemiyle kritik hasar verme, çatışmadan kaçma olasılığı mekanikleri içerecek
+
+
+ver 0.2 update notes:
+
+- Yeni eklenen fonksiyonlardan dolayı oyunu DevC++'da sorunsuz çalıştırabilmek için
+DevC++'da Tools > Compiler Options > Settings > Code Generation > Language Standart (-std) kısmından ISO C++11 seçmeniz gerekiyor
+
+- Senaryo kısmı daha okunabilir hale getirildi
+- Yoldaş edinme ve yardım çağırma fonksiyonu eklendi
+- İlerlemeyi takip etme eklendi
+- İlerlemeyi bir dosyaya kayıt etme, bu kaydı görüntüleme ve kayıttan yükleme fonksiyonları eklendi
+- Oyun seçeneklerinde yeni route eklendi
+
